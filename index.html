@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Mart</title>
+    <!-- BS -->
+     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+     <!-- cusotm css -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+     <header>
+
+         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+             <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                 <img id="logo" src="./Image/logo.png" alt="e-mart-logo">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">Category</a>
+                   </li>
+                   
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">Shoes</a>
+                   </li>
+                   
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">Bags</a>
+                   </li>
+                   
+                   <li class="nav-item">
+                     <a class="nav-link" href="#watch">watch</a>
+                   </li>
+                   
+                 </ul>
+                
+               </div>
+             </div>
+           </nav>
+     </header>
+     <!-- Hero area -->
+      <main class="container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-between align-items-center carrousel-bg">
+                   <div class="w-50">
+                    <h3>Grab the best headphones at our store</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae cum,
+                     repudiandae iure nisi neque libero tempora vel veritatis!</p>
+                    <p class="carousel_price">$200</p>
+                    <button class="btn btn-danger">Buy now</button>
+                   </div>
+                   <div><img src="./Image/banner-image/banner-images/headphone.png" class="d-block w-100 carrousel-img" alt="Headphone">
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-between align-items-center carrousel-bg">
+                    <div class="w-50">
+                        <h3>Grab the best TV at our store</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae cum,
+                            repudiandae iure nisi neque libero tempora vel veritatis!</p>
+                        <p class="carousel_price">$200</p>
+                        <button class="btn btn-danger">Buy now</button>
+                    </div>
+                    <div>
+                        <img src="./Image/banner-image/banner-images/tv.png" class="d-block w-100 carrousel-img" alt="TV">
+                    </div>
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-between align-items-center carrousel-bg">
+                    <div class="w-50">
+                        <h3>Grab the best X-box at our store</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae cum,
+                            repudiandae iure nisi neque libero tempora vel veritatis!</p>
+                        <p class="carousel_price">$200</p>
+                        <button class="btn btn-danger">Buy now</button>
+                    </div>
+                    <div><img src="./Image/banner-image/banner-images/xbox.png" class="d-block w-100 carrousel-img" alt="X-box"></div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>  
+          <!-- category -->
+           <section class="d-flex justify-content-between my-4">
+            <div style="background-color: #FFA500;" class="d-flex justify-content-between align-items-center px-5 py-3 rounded-4 shadow">
+             
+              <div>
+                <h2 class="text-white">Watch</h2>
+              </div>
+              <div>
+                <img class="d-block w-50" src="./Image/categories/categories/watch.png" alt="watch">
+              </div>
+              
+            </div>
+            <div style="background-color: #DA70D6;" class="d-flex justify-content-between align-items-center px-5 py-3 rounded-4 shadow">
+              <h2 class="text-white">Shoes</h2>
+              <img class="d-block w-50" src="./Image/categories/categories/shoes.png" alt="shoes">
+            </div>
+            <div style="background-color: #0000FF;" class="d-flex justify-content-between align-items-center px-5 py-3
+            rounded-4 shadow">
+              <h2 class="text-white">Bag</h2>
+              <img class="d-block w-50" src="./Image/categories/categories/bag.png" alt="beg">
+            </div>
+           </section>
+           <!-- watch -->
+            <section id="watch" class="container">
+              <h3 class="my-5 text-center section_heading">watch</h3>
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="card">
+                    <img src="./Image/watch/watch/Rectangle 336.png" class="card-img-top" alt="Watch">
+                    <div class="card-body">
+                      <h5 class="card-title">GTS-5</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <div class="card" >
+                    <img src="./Image/watch/watch/Rectangle 337.png" class="card-img-top" alt="watch">
+                    <div class="card-body">
+                      <h5 class="card-title">Samsung-24</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div  class="col-lg-4 col-sm-12 ">
+                  <div class="card">
+                    <img src="./Image/watch/watch/Rectangle 338.png" class="card-img-top" alt="watch">
+                    <div class="card-body">
+                      <h5 class="card-title">MI-8</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+             </section>
+             <!-- bag -->
+            <section id="watch" class="container">
+              <h3 class="my-5 text-center section_heading">Bages</h3>
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="card">
+                    <img src="./Image/bags/bags/bag-1.png" class="card-img-top" alt="Watch">
+                    <div class="card-body">
+                      <h5 class="card-title">GTS-5</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <div class="card" >
+                    <img src="./Image/bags/bags/bag-2.png" class="card-img-top" alt="watch">
+                    <div class="card-body">
+                      <h5 class="card-title">Samsung-24</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div  class="col-lg-4 col-sm-12 ">
+                  <div class="card">
+                    <img src="./Image/bags/bags/bag-3.png" class="card-img-top" alt="watch">
+                    <div class="card-body">
+                      <h5 class="card-title">MI-8</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+             </section>
+             <!-- shoes -->
+            <section id="watch" class="container">
+              <h3 class="my-5 text-center section_heading">Shoes</h3>
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="card">
+                    <img src="./Image/shoes/shoes/shoe-1.png" class="card-img-top" alt="Watch">
+                    <div class="card-body">
+                      <h5 class="card-title">Apex</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <div class="card" >
+                    <img src="./Image/shoes/shoes/shoe-2.png" class="card-img-top" alt="watch">
+                    <div class="card-body">
+                      <h5 class="card-title">Lotto</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div  class="col-lg-4 col-sm-12 ">
+                  <div class="card">
+                    <img src="./Image/shoes/shoes/shoe-3.png" class="card-img-top" alt="watch">
+                    <div class="card-body">
+                      <h5 class="card-title">Bata</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+             </section>
+
+            <section class="container" id="contact_section">
+              <h3></h3>
+              <p></p>
+              <form>
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+              </form>
+              <button type="submit">submit</button>
+            </section>
+
+
+      </main>
+
+
+
+    <!-- BS JS -->
+     <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
